@@ -23,5 +23,10 @@ function newItem(){
         $(crossOutButton).append("X");
         li.append(crossOutButton);
 
+    //Adding the delete class
+        crossOutButton.on("click", function() {
+            li.addClass("delete");
+        });
+    
     
 };
