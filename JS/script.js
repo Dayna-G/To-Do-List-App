@@ -28,5 +28,6 @@ function newItem(){
             li.addClass("delete");
         });
     
-    
+    //Reordering the items
+        $('#list').sortable();
 };
